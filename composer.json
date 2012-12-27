@@ -1,0 +1,21 @@
+{
+  "name": "mattfarina/copy-to-hpcloud",
+  "description": "A wicked fast method for copying lots of files to hpcloud.",
+  "require": {
+    "masterminds/fortissimo": "3.0.0-alpha1",
+    "masterminds/fortissimo-cli": "dev-master",
+    "hpcloud/hpcloud-php": "1.*",
+    "dflydev/apache-mime-types": "1.0.0"
+  },
+  "authors": [
+    {
+      "name": "Matt Farina",
+      "email": "matt@mattfarina.com"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["hpcloud", "swift"],
+  "autoload": {
+    "psr-0": { "mattfarina\\CopyToHpcloud": "src/" }
+  }
+}
